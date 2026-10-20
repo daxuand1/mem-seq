@@ -9,4 +9,4 @@ The key function is mem_seq(), which performs our proposed sequential selection 
 
 We also provide simulate_spa_pat() function to simulate the spatial pattern described in our paper, and simulate_one() to run single simulation.
 
-We provide a separate file toy_adh.R to assess the SEQ method. To save time, it is based on a smaller sample size, which is different from the setting in our paper and it takes about 5 mins. The Type I error is preserved (about 0.03). You can replace the method argument to, for example, "fwd" to evaluate the FWD approach. It takes about 12 mins, and the Type I error is inflated (about 0.09).
+We provide a separate file toy_adh.R to assess the sequential method. It runs an alpha diversity analysis with entropy. To save time, it is based on a smaller sample size than in our paper. It takes about 5 mins and the Type I error is preserved (about 0.03). You can replace the method argument to, for example, "fwd" to evaluate the forward selection approach. It takes about 12 mins, and the Type I error is inflated (about 0.09).
