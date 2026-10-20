@@ -1,0 +1,21 @@
+Package: MEMseq
+Title: MEM-SEQ: Scalable correction of spatial autocorrelation in 
+    microbiome spatial analysis
+Version: 0.1.0
+Authors@R: person("Daxuan", "Deng",
+    email = "daxuan.deng@gmail.com",
+    role = c("aut", "cre"))
+Description: Provides functions for spatial microbiome analysis,
+    including the SEQ, FWD, and Global approaches.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: 
+    adespatial,
+    permute,
+    stats,
+    spdep,
+    vegan
+Suggests:
+    dirmult,
+    mvtnorm
+Config/roxygen2/version: 8.1.1
