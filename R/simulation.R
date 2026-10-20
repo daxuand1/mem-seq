@@ -46,7 +46,7 @@ simulate_spa_pat = function(a1 = 10, b1 = 16, a2 = 2,
 #' @param bd_type Type of beta diversity metric used in vegdist in the vegan package.
 #' @param L Baseline library size.
 #' @param p_mix Probability of tumor in tissue area, and vice versa.
-#' @param method MEM selection method.
+#' @param method MEM selection method. It can be "seq" (sequential), "fwd" (forward selection), and "glb" (global).
 #' @param p Number of taxa.
 #' @param alpha0 Baseline taxa intensity.
 #' @param gamma Region effect in alpha diversity analysis.
